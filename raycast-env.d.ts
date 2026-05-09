@@ -8,9 +8,9 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
 type ExtensionPreferences = {
-  /** DeepSeek API Key - 你的 DeepSeek API Key */
+  /** DeepSeek API Key - Your DeepSeek API Key */
   "apiKey": string,
-  /** 模型选择 - 选择使用的 DeepSeek 模型 */
+  /** Model - Select the DeepSeek model to use */
   "model": "deepseek-chat" | "deepseek-reasoner"
 }
 
